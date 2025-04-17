@@ -1,0 +1,40 @@
+^D:\KINGSOFT\DEVELOPMENTPATH\KDEVELOP-TRAINING\KSVGEDITOR\MAINWINDOW.UI
+setlocal
+D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\bin\uic.exe -o D:/KingSoft/developmentPath/build/KSvgEditor/ui_mainwindow.h D:/KingSoft/developmentPath/KDevelop-Training/KSvgEditor/mainwindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\KINGSOFT\DEVELOPMENTPATH\BUILD\CMAKEFILES\00A165429B755F4B988FA79D55430B38\QRC_IMAGE.CPP.RULE
+setlocal
+cd D:\KingSoft\developmentPath\build\KSvgEditor
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/KSvgEditor/CMakeFiles/KSvgEditor_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/KSvgEditor/CMakeFiles/KSvgEditor_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/KSvgEditor/CMakeFiles/KSvgEditor_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/KSvgEditor/CMakeFiles/KSvgEditor_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\KINGSOFT\DEVELOPMENTPATH\KDEVELOP-TRAINING\KSVGEDITOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/KingSoft/developmentPath/KDevelop-Training -BD:/KingSoft/developmentPath/build --check-stamp-file D:/KingSoft/developmentPath/build/KSvgEditor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

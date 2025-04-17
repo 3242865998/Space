@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6D8455C2-79EF-3CDF-9546-BCAE4004FB86}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>QtDemo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\KingSoft\developmentPath\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QtDemo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">QtDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\KingSoft\developmentPath\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QtDemo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">QtDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\KingSoft\developmentPath\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QtDemo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">QtDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\KingSoft\developmentPath\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QtDemo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">QtDemo</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_Debug;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_Debug;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_Debug;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target QtDemo</Message>
+      <Command>setlocal
+cd D:\KingSoft\developmentPath\build\Example\QtDemo
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file D:/KingSoft/developmentPath/thirdparty_install/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/KingSoft/developmentPath/build/bin/Debug/QtDemo.exe -installedDir D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\debug\lib\Qt5Widgetsd.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\debug\lib\Qt5Guid.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\debug\lib\Qt5Cored.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\debug\lib\manual-link\qtmaind.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/KingSoft/developmentPath/build/bin/Debug/QtDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/KingSoft/developmentPath/build/bin/Debug/QtDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_Release;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_Release;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_Release;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target QtDemo</Message>
+      <Command>setlocal
+cd D:\KingSoft\developmentPath\build\Example\QtDemo
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file D:/KingSoft/developmentPath/thirdparty_install/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/KingSoft/developmentPath/build/bin/Release/QtDemo.exe -installedDir D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\Qt5Widgets.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\Qt5Gui.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\Qt5Core.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\manual-link\qtmain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/KingSoft/developmentPath/build/bin/Release/QtDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/KingSoft/developmentPath/build/bin/Release/QtDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_MinSizeRel;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_MinSizeRel;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_MinSizeRel;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target QtDemo</Message>
+      <Command>setlocal
+cd D:\KingSoft\developmentPath\build\Example\QtDemo
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutogenInfo.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file D:/KingSoft/developmentPath/thirdparty_install/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/KingSoft/developmentPath/build/bin/MinSizeRel/QtDemo.exe -installedDir D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\Qt5Widgets.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\Qt5Gui.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\Qt5Core.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\manual-link\qtmain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/KingSoft/developmentPath/build/bin/MinSizeRel/QtDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/KingSoft/developmentPath/build/bin/MinSizeRel/QtDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_RelWithDebInfo;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_RelWithDebInfo;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\KingSoft\developmentPath\build\Example\QtDemo;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo;D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\include_RelWithDebInfo;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtWidgets;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtGui;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\include\qt5\QtCore;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>Automatic MOC and UIC for target QtDemo</Message>
+      <Command>setlocal
+cd D:\KingSoft\developmentPath\build\Example\QtDemo
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutogenInfo.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file D:/KingSoft/developmentPath/thirdparty_install/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/KingSoft/developmentPath/build/bin/RelWithDebInfo/QtDemo.exe -installedDir D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\Qt5Widgets.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\Qt5Gui.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\Qt5Core.lib;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\lib\manual-link\qtmain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/KingSoft/developmentPath/build/bin/RelWithDebInfo/QtDemo.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/KingSoft/developmentPath/build/bin/RelWithDebInfo/QtDemo.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\mainwindow.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_mainwindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\bin\uic.exe -o D:/KingSoft/developmentPath/build/Example/QtDemo/ui_mainwindow.h D:/KingSoft/developmentPath/KDevelop-Training/Example/QtDemo/mainwindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\ui_mainwindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_mainwindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\bin\uic.exe -o D:/KingSoft/developmentPath/build/Example/QtDemo/ui_mainwindow.h D:/KingSoft/developmentPath/KDevelop-Training/Example/QtDemo/mainwindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\ui_mainwindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_mainwindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\bin\uic.exe -o D:/KingSoft/developmentPath/build/Example/QtDemo/ui_mainwindow.h D:/KingSoft/developmentPath/KDevelop-Training/Example/QtDemo/mainwindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\ui_mainwindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_mainwindow.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\bin\uic.exe -o D:/KingSoft/developmentPath/build/Example/QtDemo/ui_mainwindow.h D:/KingSoft/developmentPath/KDevelop-Training/Example/QtDemo/mainwindow.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\ui_mainwindow.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\KingSoft\developmentPath\build\CMakeFiles\a1706582e990052a9c35771e2b06a10c\qrc_image.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic RCC for image.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\KingSoft\developmentPath\build\Example\QtDemo
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image.qrc;D:\KingSoft\developmentPath\build\Example\QtDemo\CMakeFiles\QtDemo_autogen.dir\AutoRcc_image_EWIEGA46WW_Info.json;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image\peiqi.png;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\EWIEGA46WW\qrc_image.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic RCC for image.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\KingSoft\developmentPath\build\Example\QtDemo
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image.qrc;D:\KingSoft\developmentPath\build\Example\QtDemo\CMakeFiles\QtDemo_autogen.dir\AutoRcc_image_EWIEGA46WW_Info.json;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image\peiqi.png;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\EWIEGA46WW\qrc_image.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic RCC for image.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\KingSoft\developmentPath\build\Example\QtDemo
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image.qrc;D:\KingSoft\developmentPath\build\Example\QtDemo\CMakeFiles\QtDemo_autogen.dir\AutoRcc_image_EWIEGA46WW_Info.json;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image\peiqi.png;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\EWIEGA46WW\qrc_image.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic RCC for image.qrc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\KingSoft\developmentPath\build\Example\QtDemo
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/QtDemo_autogen.dir/AutoRcc_image_EWIEGA46WW_Info.json RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image.qrc;D:\KingSoft\developmentPath\build\Example\QtDemo\CMakeFiles\QtDemo_autogen.dir\AutoRcc_image_EWIEGA46WW_Info.json;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image\peiqi.png;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\tools\qt5\bin\rcc.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\EWIEGA46WW\qrc_image.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/KingSoft/developmentPath/KDevelop-Training/Example/QtDemo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/KingSoft/developmentPath/KDevelop-Training -BD:/KingSoft/developmentPath/build --check-stamp-file D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image.qrc;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5Config.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ModuleLocation.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/KingSoft/developmentPath/KDevelop-Training/Example/QtDemo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/KingSoft/developmentPath/KDevelop-Training -BD:/KingSoft/developmentPath/build --check-stamp-file D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image.qrc;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5Config.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ModuleLocation.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/KingSoft/developmentPath/KDevelop-Training/Example/QtDemo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/KingSoft/developmentPath/KDevelop-Training -BD:/KingSoft/developmentPath/build --check-stamp-file D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image.qrc;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5Config.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ModuleLocation.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/KingSoft/developmentPath/KDevelop-Training/Example/QtDemo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/KingSoft/developmentPath/KDevelop-Training -BD:/KingSoft/developmentPath/build --check-stamp-file D:/KingSoft/developmentPath/build/Example/QtDemo/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image.qrc;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5Config.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5\Qt5ModuleLocation.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\KingSoft\developmentPath\thirdparty_install\vcpkg\installed\x64-windows\share\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\KingSoft\developmentPath\build\Example\QtDemo\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\mocs_compilation.cpp" />
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\mainwindow.h" />
+    <ClInclude Include="D:\KingSoft\developmentPath\build\Example\QtDemo\ui_mainwindow.h" />
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\main.cpp" />
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\mainwindow.cpp" />
+    <None Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtDemo\image.qrc" />
+    <ClCompile Include="D:\KingSoft\developmentPath\build\Example\QtDemo\QtDemo_autogen\EWIEGA46WW\qrc_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\KingSoft\developmentPath\build\ZERO_CHECK.vcxproj">
+      <Project>{A5C6A798-D668-3C0D-A807-58F7D79D0949}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

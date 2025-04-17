@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\KingSoft\developmentPath\build\Example\QtChart\QtChart_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtChart\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtChart\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\build\Example\QtChart\QtChart_autogen\EWIEGA46WW\qrc_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtChart\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\build\Example\QtChart\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtChart\mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\KingSoft\developmentPath\build\CMakeFiles\12a0ac26baf46257f74f926ab8aca72a\qrc_image.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtChart\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\QtChart\image.qrc">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3D6D6CF1-D298-38A5-864E-78402DBCEFDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{2CB0DB1C-A9BE-3374-AC08-6143F24239F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7FBF7122-C209-3D39-AE63-750E82D989CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{015FEA30-E80C-37E6-9279-468C5DD0C16D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{87B6555A-86E8-37E1-8236-BFB4B59F621B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

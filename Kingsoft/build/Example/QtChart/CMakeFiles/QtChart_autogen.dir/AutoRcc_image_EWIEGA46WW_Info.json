@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "D:/KingSoft/developmentPath/build/Example/QtChart/QtChart_autogen",
+	"CMAKE_BINARY_DIR" : "D:/KingSoft/developmentPath/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/KingSoft/developmentPath/build/Example/QtChart",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/KingSoft/developmentPath/KDevelop-Training/Example/QtChart",
+	"CMAKE_SOURCE_DIR" : "D:/KingSoft/developmentPath/KDevelop-Training",
+	"INCLUDE_DIR" : "D:/KingSoft/developmentPath/build/Example/QtChart/QtChart_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/KingSoft/developmentPath/build/Example/QtChart/QtChart_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "D:/KingSoft/developmentPath/build/Example/QtChart/QtChart_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "D:/KingSoft/developmentPath/build/Example/QtChart/QtChart_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "D:/KingSoft/developmentPath/build/Example/QtChart/QtChart_autogen/include_Release",
+	"INPUTS" : 
+	[
+		"D:/KingSoft/developmentPath/KDevelop-Training/Example/QtChart/image/peiqi.png"
+	],
+	"LOCK_FILE" : "D:/KingSoft/developmentPath/build/Example/QtChart/CMakeFiles/QtChart_autogen.dir/AutoRcc_image_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : true,
+	"OPTIONS" : [ "-name", "image" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_image.cpp",
+	"RCC_EXECUTABLE" : "D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/tools/qt5/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/KingSoft/developmentPath/build/Example/QtChart/CMakeFiles/QtChart_autogen.dir/AutoRcc_image_EWIEGA46WW_Used.txt",
+	"SETTINGS_FILE_Debug" : "D:/KingSoft/developmentPath/build/Example/QtChart/CMakeFiles/QtChart_autogen.dir/AutoRcc_image_EWIEGA46WW_Used_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "D:/KingSoft/developmentPath/build/Example/QtChart/CMakeFiles/QtChart_autogen.dir/AutoRcc_image_EWIEGA46WW_Used_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "D:/KingSoft/developmentPath/build/Example/QtChart/CMakeFiles/QtChart_autogen.dir/AutoRcc_image_EWIEGA46WW_Used_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "D:/KingSoft/developmentPath/build/Example/QtChart/CMakeFiles/QtChart_autogen.dir/AutoRcc_image_EWIEGA46WW_Used_Release.txt",
+	"SOURCE" : "D:/KingSoft/developmentPath/KDevelop-Training/Example/QtChart/image.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\CppBase\kxperson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\CppBase\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\CppBase\kxperson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\KingSoft\developmentPath\KDevelop-Training\Example\CppBase\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7FBF7122-C209-3D39-AE63-750E82D989CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{87B6555A-86E8-37E1-8236-BFB4B59F621B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

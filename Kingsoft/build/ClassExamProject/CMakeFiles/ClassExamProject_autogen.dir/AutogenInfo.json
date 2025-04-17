@@ -1,0 +1,310 @@
+{
+	"BUILD_DIR" : "D:/KingSoft/developmentPath/build/ClassExamProject/ClassExamProject_autogen",
+	"CMAKE_BINARY_DIR" : "D:/KingSoft/developmentPath/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/KingSoft/developmentPath/build/ClassExamProject",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
+	"CMAKE_SOURCE_DIR" : "D:/KingSoft/developmentPath/KDevelop-Training",
+	"HEADERS" : 
+	[
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kcanvas.h",
+			"MU",
+			"EWIEGA46WW/moc_kcanvas.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kcanvasparamsbar.h",
+			"MU",
+			"EWIEGA46WW/moc_kcanvasparamsbar.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kcircle.h",
+			"MU",
+			"EWIEGA46WW/moc_kcircle.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kcolorbox.h",
+			"MU",
+			"EWIEGA46WW/moc_kcolorbox.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kfilemenu.h",
+			"MU",
+			"EWIEGA46WW/moc_kfilemenu.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kfive.h",
+			"MU",
+			"EWIEGA46WW/moc_kfive.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kglobaldata.h",
+			"MU",
+			"EWIEGA46WW/moc_kglobaldata.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kline.h",
+			"MU",
+			"EWIEGA46WW/moc_kline.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/klinestyle.h",
+			"MU",
+			"EWIEGA46WW/moc_klinestyle.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kmainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_kmainwindow.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kparambox.h",
+			"MU",
+			"EWIEGA46WW/moc_kparambox.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kparamsbar.h",
+			"MU",
+			"EWIEGA46WW/moc_kparamsbar.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kpen.h",
+			"MU",
+			"EWIEGA46WW/moc_kpen.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/krect.h",
+			"MU",
+			"EWIEGA46WW/moc_krect.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/krightmenu.h",
+			"MU",
+			"EWIEGA46WW/moc_krightmenu.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kshape.h",
+			"MU",
+			"EWIEGA46WW/moc_kshape.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kshapefactory.h",
+			"MU",
+			"EWIEGA46WW/moc_kshapefactory.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/ksix.h",
+			"MU",
+			"EWIEGA46WW/moc_ksix.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kstar.h",
+			"MU",
+			"EWIEGA46WW/moc_kstar.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/ksvgmainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_ksvgmainwindow.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/ktext.h",
+			"MU",
+			"EWIEGA46WW/moc_ktext.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/ktoolbar.h",
+			"MU",
+			"EWIEGA46WW/moc_ktoolbar.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/ktoolbutton.h",
+			"MU",
+			"EWIEGA46WW/moc_ktoolbutton.cpp"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kvaluebox.h",
+			"MU",
+			"EWIEGA46WW/moc_kvaluebox.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "D:/KingSoft/developmentPath/build/ClassExamProject/ClassExamProject_autogen/include",
+	"INCLUDE_DIR_Debug" : "D:/KingSoft/developmentPath/build/ClassExamProject/ClassExamProject_autogen/include_Debug",
+	"INCLUDE_DIR_MinSizeRel" : "D:/KingSoft/developmentPath/build/ClassExamProject/ClassExamProject_autogen/include_MinSizeRel",
+	"INCLUDE_DIR_RelWithDebInfo" : "D:/KingSoft/developmentPath/build/ClassExamProject/ClassExamProject_autogen/include_RelWithDebInfo",
+	"INCLUDE_DIR_Release" : "D:/KingSoft/developmentPath/build/ClassExamProject/ClassExamProject_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "D:/KingSoft/developmentPath/build/ClassExamProject/ClassExamProject_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_SVG_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32"
+	],
+	"MOC_DEFINITIONS_Debug" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NETWORK_LIB",
+		"QT_SVG_LIB",
+		"QT_WIDGETS_LIB",
+		"WIN32"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"D:/KingSoft/developmentPath/build/ClassExamProject",
+		"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject",
+		"D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/include/qt5",
+		"D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/include/qt5/QtWidgets",
+		"D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/include/qt5/QtGui",
+		"D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/include/qt5/QtCore",
+		"D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/tools/qt5/mkspecs/win32-msvc",
+		"D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/include/qt5/QtNetwork",
+		"D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/include/qt5/QtSvg"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [ "D:/KingSoft/developmentPath/build/ClassExamProject/ui_kmainwindow.h" ],
+	"MULTI_CONFIG" : true,
+	"PARALLEL" : 14,
+	"PARSE_CACHE_FILE" : "D:/KingSoft/developmentPath/build/ClassExamProject/CMakeFiles/ClassExamProject_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "D:/KingSoft/developmentPath/build/ClassExamProject/CMakeFiles/ClassExamProject_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_MinSizeRel" : "D:/KingSoft/developmentPath/build/ClassExamProject/CMakeFiles/ClassExamProject_autogen.dir/ParseCache_MinSizeRel.txt",
+	"PARSE_CACHE_FILE_RelWithDebInfo" : "D:/KingSoft/developmentPath/build/ClassExamProject/CMakeFiles/ClassExamProject_autogen.dir/ParseCache_RelWithDebInfo.txt",
+	"PARSE_CACHE_FILE_Release" : "D:/KingSoft/developmentPath/build/ClassExamProject/CMakeFiles/ClassExamProject_autogen.dir/ParseCache_Release.txt",
+	"QT_MOC_EXECUTABLE" : "D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/tools/qt5/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/tools/qt5/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "D:/KingSoft/developmentPath/build/ClassExamProject/CMakeFiles/ClassExamProject_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "D:/KingSoft/developmentPath/build/ClassExamProject/CMakeFiles/ClassExamProject_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_MinSizeRel" : "D:/KingSoft/developmentPath/build/ClassExamProject/CMakeFiles/ClassExamProject_autogen.dir/AutogenUsed_MinSizeRel.txt",
+	"SETTINGS_FILE_RelWithDebInfo" : "D:/KingSoft/developmentPath/build/ClassExamProject/CMakeFiles/ClassExamProject_autogen.dir/AutogenUsed_RelWithDebInfo.txt",
+	"SETTINGS_FILE_Release" : "D:/KingSoft/developmentPath/build/ClassExamProject/CMakeFiles/ClassExamProject_autogen.dir/AutogenUsed_Release.txt",
+	"SOURCES" : 
+	[
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kcanvas.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kcanvasparamsbar.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kcircle.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kcolorbox.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kfilemenu.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kfive.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kglobaldata.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kline.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/klinestyle.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kmainwindow.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kparambox.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kparamsbar.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kpen.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/krect.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/krightmenu.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kshape.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kshapefactory.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/ksix.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kstar.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/ksvgmainwindow.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/ktext.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/ktoolbar.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/ktoolbutton.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kvaluebox.cpp",
+			"MU"
+		],
+		[
+			"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/main.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"D:/KingSoft/developmentPath/KDevelop-Training/ClassExamProject/kmainwindow.ui",
+		"D:/KingSoft/developmentPath/build/ClassExamProject/ui_kmainwindow.h"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

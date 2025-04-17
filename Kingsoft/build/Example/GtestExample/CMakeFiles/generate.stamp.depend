@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.16/Modules/CMakeFindDependencyMacro.cmake
+D:/KingSoft/developmentPath/KDevelop-Training/Example/GtestExample/CMakeLists.txt
+D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/share/gtest/GTestConfig.cmake
+D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/share/gtest/GTestConfigVersion.cmake
+D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/share/gtest/GTestTargets-debug.cmake
+D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/share/gtest/GTestTargets-release.cmake
+D:/KingSoft/developmentPath/thirdparty_install/vcpkg/installed/x64-windows/share/gtest/GTestTargets.cmake

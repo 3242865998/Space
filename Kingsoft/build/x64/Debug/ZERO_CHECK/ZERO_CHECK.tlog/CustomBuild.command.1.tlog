@@ -1,0 +1,10 @@
+^D:\KINGSOFT\DEVELOPMENTPATH\BUILD\CMAKEFILES\7AC1370CF00AFC0E0D671FF7BD1CDB96\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/KingSoft/developmentPath/KDevelop-Training -BD:/KingSoft/developmentPath/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/KingSoft/developmentPath/build/Develop-Train.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

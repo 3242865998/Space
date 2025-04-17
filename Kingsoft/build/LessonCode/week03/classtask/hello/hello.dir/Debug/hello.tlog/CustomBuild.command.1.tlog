@@ -1,0 +1,10 @@
+^D:\KINGSOFT\DEVELOPMENTPATH\KDEVELOP-TRAINING\LESSONCODE\WEEK03\CLASSTASK\HELLO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/KingSoft/developmentPath/KDevelop-Training -BD:/KingSoft/developmentPath/build --check-stamp-file D:/KingSoft/developmentPath/build/LessonCode/week03/classtask/hello/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

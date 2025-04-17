@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\KingSoft\developmentPath\build\ClassExamProject\ClassExamProject_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kcanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kcanvasparamsbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kcircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kcolorbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kfilemenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kfive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kglobaldata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\klinestyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kmainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kparambox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kparamsbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kpen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\krect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\krightmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kshape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kshapefactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\ksix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kstar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\ksvgmainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\ktext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\ktoolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\ktoolbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kvaluebox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\KingSoft\developmentPath\build\ClassExamProject\ClassExamProject_autogen\EWIEGA46WW\qrc_kmainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kcanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kcanvasparamsbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kcircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kcolorbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kfilemenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kfive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kglobaldata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\klinestyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kmainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kparambox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kparamsbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kpen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\krect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\krightmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kshape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kshapefactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\ksix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kstar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\ksvgmainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\ktext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\ktoolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\ktoolbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kvaluebox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\KingSoft\developmentPath\build\ClassExamProject\ui_kmainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kmainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\KingSoft\developmentPath\build\CMakeFiles\e243e12a43716464dbacec3ccefa396e\qrc_kmainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\KingSoft\developmentPath\KDevelop-Training\ClassExamProject\kmainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3D6D6CF1-D298-38A5-864E-78402DBCEFDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{2CB0DB1C-A9BE-3374-AC08-6143F24239F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7FBF7122-C209-3D39-AE63-750E82D989CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{015FEA30-E80C-37E6-9279-468C5DD0C16D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{87B6555A-86E8-37E1-8236-BFB4B59F621B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
